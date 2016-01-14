@@ -1,4 +1,4 @@
-# HJ-Config
+# HJ-Config [![Build Status](https://travis-ci.org/SummerSunC/hj-config.svg?branch=master)](https://travis-ci.org/SummerSunC/hj-config)
 
 ## 项目信息
 - 基础模块 [hj-config-core](./hj-config-core)
