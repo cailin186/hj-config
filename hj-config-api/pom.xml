@@ -38,7 +38,7 @@
     </dependencies>
 
     <build>
-        <finalName>hj-config-web</finalName>
+        <finalName>hj-config-api</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
