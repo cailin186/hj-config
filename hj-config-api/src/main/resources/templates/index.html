@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+</head>
+<div class="main container">
+
+    <div class="row-fluid">
+
+        <div class="span9">
+
+            <div class="content oz">
+
+                <form id="form" action="/config/save" method="post"  class="private-form clearfix">
+                    <h2 class="autoPush-detail-title">配置文件修改</h2>
+                    <p class="private-item">
+                        <span class="private-item-key">APP id & 名称：</span>
+                        <span id="app" class="private-item-value">
+                            <input type="text" name="appId"/>
+                        </span>
+                    </p>
+                    <p class="private-item">
+                        <span class="private-item-key">版本：</span>
+                        <span id="version"  class="private-item-value">
+                            <input type="text" name="version"/>
+                        </span>
+                    </p>
+                    <p class="private-item">
+                        <span class="private-item-key">环境：</span>
+                        <input type="text" name="profile"/>
+                    </p>
+                    <p class="private-item">
+                        <span class="private-item-key">属性KEY值：</span>
+                        <input type="text" name="key"/>
+                    </p>
+                    <p class="private-item">
+                        <span class="private-item-key">属性VALUE值：</span>
+                        <input type="text" name="value"/>
+                    </p>
+
+                    <div class="private-item clearfix">
+                        <span style="float:left" class="private-item-key">原配置文件内容：</span>
+                        <pre style="float:left" id="oldvalue" class="private-item-value-pre">FFFF</pre>
+                    </div>
+                    <div>
+                        <button id="submit" class="private-submit" >
+                            提交配置
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
